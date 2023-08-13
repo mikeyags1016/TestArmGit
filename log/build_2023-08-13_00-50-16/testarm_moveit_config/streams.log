@@ -1,0 +1,20 @@
+[0.018s] Invoking command in '/home/michael/ros2_ws/build/testarm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14
+[0.056s] Invoked command in '/home/michael/ros2_ws/build/testarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14
+[0.088s] Invoking command in '/home/michael/ros2_ws/build/testarm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm_moveit_config
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/package_run_dependencies/testarm_moveit_config
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/parent_prefix_path/testarm_moveit_config
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/path.sh
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/path.dsv
+[0.094s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.bash
+[0.095s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.sh
+[0.095s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.zsh
+[0.095s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.dsv
+[0.097s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.dsv
+[0.097s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/packages/testarm_moveit_config
+[0.097s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/cmake/testarm_moveit_configConfig.cmake
+[0.097s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/cmake/testarm_moveit_configConfig-version.cmake
+[0.097s] -- Up-to-date: /home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.xml
+[0.098s] Invoked command in '/home/michael/ros2_ws/build/testarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm_moveit_config

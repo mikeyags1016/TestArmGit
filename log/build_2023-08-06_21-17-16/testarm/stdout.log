@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/michael/ros2_ws/build/testarm
+-- Install configuration: ""
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/launch
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/launch/display.launch.py
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/launch/gazebo.launch.py
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/urdf
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.urdf
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.csv
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/meshes
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l1.STL
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/base_link.STL
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l2.STL
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l3.STL
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/package_run_dependencies/testarm
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/parent_prefix_path/testarm
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.sh
+-- Installing: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.sh
+-- Installing: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.dsv
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.bash
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.sh
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.zsh
+-- Installing: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.dsv
+-- Installing: /home/michael/ros2_ws/install/testarm/share/testarm/package.dsv
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/packages/testarm
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig.cmake
+-- Up-to-date: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig-version.cmake
+-- Installing: /home/michael/ros2_ws/install/testarm/share/testarm/package.xml

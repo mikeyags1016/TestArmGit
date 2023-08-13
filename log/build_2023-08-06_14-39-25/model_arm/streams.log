@@ -1,0 +1,33 @@
+[0.378s] Invoking command in '/home/michael/ros2_ws/build/model_arm': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/michael/ros2_ws/build/model_arm/build
+[0.522s] running develop
+[0.523s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.523s]   warnings.warn(
+[0.524s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.524s]   warnings.warn(
+[0.551s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.551s]   warnings.warn(
+[0.551s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.551s]   warnings.warn(
+[0.613s] Invoked command in '/home/michael/ros2_ws/build/model_arm' returned '0': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/michael/ros2_ws/build/model_arm/build
+[0.613s] Invoking command in '/home/michael/ros2_ws/src/model_arm': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_arm build --build-base /home/michael/ros2_ws/build/model_arm/build install --record /home/michael/ros2_ws/build/model_arm/install.log --single-version-externally-managed
+[0.741s] running egg_info
+[0.741s] writing ../../build/model_arm/model_arm.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../../build/model_arm/model_arm.egg-info/dependency_links.txt
+[0.747s] writing entry points to ../../build/model_arm/model_arm.egg-info/entry_points.txt
+[0.747s] writing requirements to ../../build/model_arm/model_arm.egg-info/requires.txt
+[0.747s] writing top-level names to ../../build/model_arm/model_arm.egg-info/top_level.txt
+[0.749s] reading manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+[0.749s] writing manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.750s] running install
+[0.750s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.750s]   warnings.warn(
+[0.751s] running install_lib
+[0.752s] running install_data
+[0.754s] running install_egg_info
+[0.755s] removing '/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.755s] Copying ../../build/model_arm/model_arm.egg-info to /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm-0.0.0-py3.10.egg-info
+[0.755s] running install_scripts
+[0.768s] writing list of installed files to '/home/michael/ros2_ws/build/model_arm/install.log'
+[0.781s] Invoked command in '/home/michael/ros2_ws/src/model_arm' returned '0': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_arm build --build-base /home/michael/ros2_ws/build/model_arm/build install --record /home/michael/ros2_ws/build/model_arm/install.log --single-version-externally-managed

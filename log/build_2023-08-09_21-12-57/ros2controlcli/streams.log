@@ -1,0 +1,27 @@
+[0.850s] Invoking command in '/home/michael/ros2_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/build/ros2controlcli/prefix_override:/home/michael/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/ros2controlcli/build --no-deps install_data
+[6.312s] running develop
+[6.312s] running egg_info
+[6.313s] creating ros2controlcli.egg-info
+[6.313s] writing ros2controlcli.egg-info/PKG-INFO
+[6.313s] writing dependency_links to ros2controlcli.egg-info/dependency_links.txt
+[6.313s] writing entry points to ros2controlcli.egg-info/entry_points.txt
+[6.313s] writing requirements to ros2controlcli.egg-info/requires.txt
+[6.313s] writing top-level names to ros2controlcli.egg-info/top_level.txt
+[6.313s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[6.313s] reading manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[6.313s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[6.314s] running build_ext
+[6.314s] Creating /home/michael/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli.egg-link (link to .)
+[6.314s] 
+[6.314s] Installed /home/michael/ros2_ws/build/ros2controlcli
+[6.314s] running install_data
+[6.314s] copying package.xml -> /home/michael/ros2_ws/install/ros2controlcli/share/ros2controlcli
+[6.314s] creating /home/michael/ros2_ws/install/ros2controlcli/share/ament_index
+[6.314s] creating /home/michael/ros2_ws/install/ros2controlcli/share/ament_index/resource_index
+[6.314s] creating /home/michael/ros2_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[6.314s] copying resource/ros2controlcli -> /home/michael/ros2_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[6.314s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.315s]   warnings.warn(
+[6.315s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.315s]   warnings.warn(
+[6.318s] Invoked command in '/home/michael/ros2_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/build/ros2controlcli/prefix_override:/home/michael/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/ros2controlcli/build --no-deps install_data

@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/michael/ros2_ws/build/model_arm",
+        "/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages",
+        "/home/michael/colcon_ws/install/model_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/michael/ros2_ws/build/model_arm",
+        "/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages",
+        "/home/michael/colcon_ws/install/model_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.configureOnOpen": true
+}

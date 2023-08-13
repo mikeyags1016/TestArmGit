@@ -1,0 +1,1 @@
+/home/michael/ros2_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake

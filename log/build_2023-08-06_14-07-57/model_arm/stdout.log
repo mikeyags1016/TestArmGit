@@ -1,0 +1,26 @@
+running develop
+Removing /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model-arm.egg-link (link to .)
+running egg_info
+writing ../../build/model_arm/model_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/model_arm/model_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/model_arm/model_arm.egg-info/entry_points.txt
+writing requirements to ../../build/model_arm/model_arm.egg-info/requires.txt
+writing top-level names to ../../build/model_arm/model_arm.egg-info/top_level.txt
+reading manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/michael/ros2_ws/build/model_arm/build
+creating /home/michael/ros2_ws/build/model_arm/build/lib
+creating /home/michael/ros2_ws/build/model_arm/build/lib/model_arm
+copying model_arm/__init__.py -> /home/michael/ros2_ws/build/model_arm/build/lib/model_arm
+running install
+running install_lib
+creating /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm
+copying /home/michael/ros2_ws/build/model_arm/build/lib/model_arm/__init__.py -> /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm
+byte-compiling /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/model_arm/model_arm.egg-info to /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/michael/ros2_ws/build/model_arm/install.log'

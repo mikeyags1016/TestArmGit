@@ -1,0 +1,191 @@
+[0.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.213s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=14, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f225c0d4790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f225caddb10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f225caddb10>>)
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/michael/ros2_ws'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testarm' with type 'ros.ament_cmake' and name 'testarm'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/testarm_moveit_config) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testarm_moveit_config' with type 'ros.ament_cmake' and name 'testarm_moveit_config'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 53 installed packages in /home/michael/ros2_ws/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'testarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/ros2_ws/build/testarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/ros2_ws/install/testarm', 'merge_install': False, 'path': '/home/michael/ros2_ws/src/testarm', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'testarm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'testarm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/ros2_ws/build/testarm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/ros2_ws/install/testarm_moveit_config', 'merge_install': False, 'path': '/home/michael/ros2_ws/src/testarm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/ros2_ws/src/testarm' with build type 'ament_cmake'
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/ros2_ws/src/testarm'
+[0.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm
+[0.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testarm)
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm' for CMake module files
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm' for CMake config files
+[0.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('testarm', 'cmake_prefix_path')
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.ps1'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.sh'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/bin'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/lib/pkgconfig/testarm.pc'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/lib/python3.10/site-packages'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/bin'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/ros2_ws/install/testarm/share/testarm/package.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.bash'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.zsh'
+[0.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/ros2_ws/install/testarm/share/colcon-core/packages/testarm)
+[0.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testarm)
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm' for CMake module files
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm' for CMake config files
+[0.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('testarm', 'cmake_prefix_path')
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.dsv'
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm/share/testarm/hook/cmake_prefix_path.sh'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/bin'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/lib/pkgconfig/testarm.pc'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/lib/python3.10/site-packages'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm/bin'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/ros2_ws/install/testarm/share/testarm/package.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.bash'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm/share/testarm/package.zsh'
+[0.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/ros2_ws/install/testarm/share/colcon-core/packages/testarm)
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/ros2_ws/src/testarm_moveit_config' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/ros2_ws/src/testarm_moveit_config'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/ros2_ws/build/testarm_moveit_config': CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/testarm_moveit_config:/home/michael/ros2_ws/install/gazebo_ros2_control_demos:/home/michael/ros2_ws/install/ros2_controllers:/home/michael/ros2_ws/install/ign_ros2_control_demos:/home/michael/ros2_ws/install/velocity_controllers:/home/michael/ros2_ws/install/tricycle_steering_controller:/home/michael/ros2_ws/install/tricycle_controller:/home/michael/ros2_ws/install/ros2_control_demos:/home/michael/ros2_ws/install/ros2_control_demo_example_8:/home/michael/ros2_ws/install/ros2_control:/home/michael/ros2_ws/install/transmission_interface:/home/michael/ros2_ws/install/bicycle_steering_controller:/home/michael/ros2_ws/install/ackermann_steering_controller:/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/ros2_control_demo_example_9:/home/michael/ros2_ws/install/ros2_control_demo_example_7:/home/michael/ros2_ws/install/ros2_control_demo_example_6:/home/michael/ros2_ws/install/ros2_control_demo_example_5:/home/michael/ros2_ws/install/ros2_control_demo_example_4:/home/michael/ros2_ws/install/ros2_control_demo_example_3:/home/michael/ros2_ws/install/ros2_control_demo_example_2:/home/michael/ros2_ws/install/ros2_control_demo_example_12:/home/michael/ros2_ws/install/ros2_control_demo_example_1:/home/michael/ros2_ws/install/gz_ros2_control_tests:/home/michael/ros2_ws/install/ign_ros2_control:/home/michael/ros2_ws/install/gazebo_ros2_control:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/position_controllers:/home/michael/ros2_ws/install/admittance_controller:/home/michael/ros2_ws/install/joint_trajectory_controller:/home/michael/ros2_ws/install/joint_state_broadcaster:/home/michael/ros2_ws/install/imu_sensor_broadcaster:/home/michael/ros2_ws/install/gripper_controllers:/home/michael/ros2_ws/install/effort_controllers:/home/michael/ros2_ws/install/forward_command_controller:/home/michael/ros2_ws/install/force_torque_sensor_broadcaster:/home/michael/ros2_ws/install/diff_drive_controller:/home/michael/ros2_ws/install/control_toolbox:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/kinematics_interface_kdl:/home/michael/ros2_ws/install/kinematics_interface:/home/michael/ros2_ws/install/joint_limits:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/ros2_ws/build/testarm_moveit_config' returned '2': CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/testarm_moveit_config:/home/michael/ros2_ws/install/gazebo_ros2_control_demos:/home/michael/ros2_ws/install/ros2_controllers:/home/michael/ros2_ws/install/ign_ros2_control_demos:/home/michael/ros2_ws/install/velocity_controllers:/home/michael/ros2_ws/install/tricycle_steering_controller:/home/michael/ros2_ws/install/tricycle_controller:/home/michael/ros2_ws/install/ros2_control_demos:/home/michael/ros2_ws/install/ros2_control_demo_example_8:/home/michael/ros2_ws/install/ros2_control:/home/michael/ros2_ws/install/transmission_interface:/home/michael/ros2_ws/install/bicycle_steering_controller:/home/michael/ros2_ws/install/ackermann_steering_controller:/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/ros2_control_demo_example_9:/home/michael/ros2_ws/install/ros2_control_demo_example_7:/home/michael/ros2_ws/install/ros2_control_demo_example_6:/home/michael/ros2_ws/install/ros2_control_demo_example_5:/home/michael/ros2_ws/install/ros2_control_demo_example_4:/home/michael/ros2_ws/install/ros2_control_demo_example_3:/home/michael/ros2_ws/install/ros2_control_demo_example_2:/home/michael/ros2_ws/install/ros2_control_demo_example_12:/home/michael/ros2_ws/install/ros2_control_demo_example_1:/home/michael/ros2_ws/install/gz_ros2_control_tests:/home/michael/ros2_ws/install/ign_ros2_control:/home/michael/ros2_ws/install/gazebo_ros2_control:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/position_controllers:/home/michael/ros2_ws/install/admittance_controller:/home/michael/ros2_ws/install/joint_trajectory_controller:/home/michael/ros2_ws/install/joint_state_broadcaster:/home/michael/ros2_ws/install/imu_sensor_broadcaster:/home/michael/ros2_ws/install/gripper_controllers:/home/michael/ros2_ws/install/effort_controllers:/home/michael/ros2_ws/install/forward_command_controller:/home/michael/ros2_ws/install/force_torque_sensor_broadcaster:/home/michael/ros2_ws/install/diff_drive_controller:/home/michael/ros2_ws/install/control_toolbox:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/kinematics_interface_kdl:/home/michael/ros2_ws/install/kinematics_interface:/home/michael/ros2_ws/install/joint_limits:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14
+[0.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testarm_moveit_config)
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config' for CMake module files
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config' for CMake config files
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('testarm_moveit_config', 'cmake_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/hook/cmake_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/hook/cmake_prefix_path.sh'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config/bin'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config/lib/pkgconfig/testarm_moveit_config.pc'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config/lib/python3.10/site-packages'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/michael/ros2_ws/install/testarm_moveit_config/bin'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.sh'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.zsh'
+[0.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/ros2_ws/install/testarm_moveit_config/share/colcon-core/packages/testarm_moveit_config)
+[0.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.519s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.523s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.530s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/ros2_ws/install/local_setup.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/ros2_ws/install/_local_setup_util_ps1.py'
+[0.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/ros2_ws/install/setup.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/ros2_ws/install/local_setup.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/ros2_ws/install/_local_setup_util_sh.py'
+[0.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/ros2_ws/install/setup.sh'
+[0.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/ros2_ws/install/local_setup.bash'
+[0.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/ros2_ws/install/setup.bash'
+[0.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/ros2_ws/install/local_setup.zsh'
+[0.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/ros2_ws/install/setup.zsh'

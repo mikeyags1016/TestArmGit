@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.036s] Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.068s] Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm
+[0.074s] -- Install configuration: ""
+[0.074s] -- Execute custom install script
+[0.074s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/launch/display.launch.py
+[0.074s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/launch/gazebo.launch.py
+[0.074s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.csv
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.urdf
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/base_link.STL
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l1.STL
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l2.STL
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l3.STL
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/config/testarm_controller.yaml
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/package_run_dependencies/testarm
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/parent_prefix_path/testarm
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.sh
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.dsv
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.sh
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.dsv
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.bash
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.sh
+[0.075s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.zsh
+[0.076s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.dsv
+[0.076s] -- Symlinking: /home/michael/ros2_ws/install/testarm/share/testarm/package.dsv
+[0.082s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/packages/testarm
+[0.083s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig.cmake
+[0.083s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig-version.cmake
+[0.083s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/package.xml
+[0.084s] Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm

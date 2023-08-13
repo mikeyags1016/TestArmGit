@@ -1,0 +1,89 @@
+[0.253s] Invoking command in '/home/michael/ros2_ws/build/tricycle_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/tricycle_controller -- -j14 -l14
+[0.279s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.532s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.578s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.579s] -- BACKWARD_HAS_UNWIND=1
+[0.579s] -- BACKWARD_HAS_BACKTRACE=0
+[0.579s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.579s] -- BACKWARD_HAS_DW=1
+[0.579s] -- BACKWARD_HAS_BFD=0
+[0.579s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.580s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.611s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.625s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.843s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.766s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.767s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.356s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.487s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.545s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.568s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[2.585s] -- Found tf2_msgs: 0.25.3 (/opt/ros/humble/share/tf2_msgs/cmake)
+[3.099s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.099s] -- Found controller_manager: 2.29.0 (/home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.431s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.432s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.438s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.438s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.019s] -- Configuring done
+[4.154s] -- Generating done
+[4.160s] -- Build files have been written to: /home/michael/ros2_ws/build/tricycle_controller
+[4.203s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[4.220s] [35m[1mConsolidate compiler generated dependencies of target tricycle_controller[0m
+[4.226s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[4.231s] [ 14%] Built target gmock_main
+[4.281s] [ 21%] [32mBuilding CXX object CMakeFiles/tricycle_controller.dir/src/odometry.cpp.o[0m
+[4.285s] [ 28%] [32mBuilding CXX object CMakeFiles/tricycle_controller.dir/src/tricycle_controller.cpp.o[0m
+[4.287s] [ 50%] Built target gmock
+[4.289s] [ 57%] [32mBuilding CXX object CMakeFiles/tricycle_controller.dir/src/traction_limiter.cpp.o[0m
+[4.300s] [ 64%] [32mBuilding CXX object CMakeFiles/tricycle_controller.dir/src/steering_limiter.cpp.o[0m
+[49.099s] [ 71%] [32m[1mLinking CXX shared library libtricycle_controller.so[0m
+[51.072s] [ 71%] Built target tricycle_controller
+[51.091s] [35m[1mConsolidate compiler generated dependencies of target test_load_tricycle_controller[0m
+[51.109s] [35m[1mConsolidate compiler generated dependencies of target test_tricycle_controller[0m
+[51.119s] [ 78%] [32mBuilding CXX object CMakeFiles/test_load_tricycle_controller.dir/test/test_load_tricycle_controller.cpp.o[0m
+[51.251s] [ 85%] [32mBuilding CXX object CMakeFiles/test_tricycle_controller.dir/test/test_tricycle_controller.cpp.o[0m
+[61.852s] [ 92%] [32m[1mLinking CXX executable test_load_tricycle_controller[0m
+[63.131s] [ 92%] Built target test_load_tricycle_controller
+[63.537s] [100%] [32m[1mLinking CXX executable test_tricycle_controller[0m
+[65.207s] [100%] Built target test_tricycle_controller
+[65.237s] Invoked command in '/home/michael/ros2_ws/build/tricycle_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/tricycle_controller -- -j14 -l14
+[65.297s] Invoking command in '/home/michael/ros2_ws/build/tricycle_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/tricycle_controller
+[73.605s] -- Install configuration: ""
+[73.605s] -- Execute custom install script
+[73.605s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller//tricycle_controller.xml
+[73.605s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/odometry.hpp
+[73.605s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/steering_limiter.hpp
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/traction_limiter.hpp
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/tricycle_controller.hpp
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/visibility_control.h
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/library_path.sh
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/library_path.dsv
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/ament_index/resource_index/package_run_dependencies/tricycle_controller
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/ament_index/resource_index/parent_prefix_path/tricycle_controller
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/ament_prefix_path.sh
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/ament_prefix_path.dsv
+[73.606s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/path.sh
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/environment/path.dsv
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/local_setup.bash
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/local_setup.sh
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/local_setup.zsh
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/local_setup.dsv
+[73.607s] -- Symlinking: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/package.dsv
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/ament_index/resource_index/packages/tricycle_controller
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/tricycle_controller
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/ament_cmake_export_targets-extras.cmake
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/tricycle_controllerConfig.cmake
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/tricycle_controllerConfig-version.cmake
+[73.607s] -- Up-to-date symlink: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/package.xml
+[73.607s] -- Installing: /home/michael/ros2_ws/install/tricycle_controller/lib/libtricycle_controller.so
+[73.608s] -- Set runtime path of "/home/michael/ros2_ws/install/tricycle_controller/lib/libtricycle_controller.so" to ""
+[73.608s] -- Up-to-date: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport.cmake
+[73.608s] -- Up-to-date: /home/michael/ros2_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport-noconfig.cmake
+[73.657s] Invoked command in '/home/michael/ros2_ws/build/tricycle_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/tricycle_controller

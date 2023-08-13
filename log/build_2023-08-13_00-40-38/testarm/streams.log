@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.051s] Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+[0.083s] Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm
+[0.089s] -- Install configuration: ""
+[0.090s] -- Execute custom install script
+[0.090s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/launch/display.launch.py
+[0.091s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/launch/gazebo.launch.py
+[0.091s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.csv
+[0.092s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/urdf/testarm_urdf.urdf.xacro
+[0.092s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/rviz/urdf.rviz
+[0.092s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/worlds/testarm.world
+[0.092s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/config/params_init.yaml
+[0.092s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/config/testarm_controller.yaml
+[0.093s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/base_link.STL
+[0.093s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l1.STL
+[0.093s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l2.STL
+[0.093s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/meshes/l3.STL
+[0.093s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/package_run_dependencies/testarm
+[0.094s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/parent_prefix_path/testarm
+[0.094s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.sh
+[0.095s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/environment/path.dsv
+[0.095s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.bash
+[0.095s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.sh
+[0.095s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/local_setup.dsv
+[0.096s] -- Symlinking: /home/michael/ros2_ws/install/testarm/share/testarm/package.dsv
+[0.100s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/ament_index/resource_index/packages/testarm
+[0.100s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig.cmake
+[0.100s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/cmake/testarmConfig-version.cmake
+[0.100s] -- Up-to-date symlink: /home/michael/ros2_ws/install/testarm/share/testarm/package.xml
+[0.101s] Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/rqt_joint_trajectory_controller:/home/michael/ros2_ws/install/rqt_controller_manager:/home/michael/ros2_ws/install/ros2controlcli:/home/michael/ros2_ws/install/ros2_controllers_test_nodes:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm

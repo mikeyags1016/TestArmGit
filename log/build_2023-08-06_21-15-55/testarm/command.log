@@ -1,0 +1,2 @@
+Invoking command in '/home/michael/ros2_ws/build/testarm': /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+Invoked command in '/home/michael/ros2_ws/build/testarm' returned '2': /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14

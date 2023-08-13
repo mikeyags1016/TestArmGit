@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating model_arm.egg-info
+writing model_arm.egg-info/PKG-INFO
+writing dependency_links to model_arm.egg-info/dependency_links.txt
+writing entry points to model_arm.egg-info/entry_points.txt
+writing requirements to model_arm.egg-info/requires.txt
+writing top-level names to model_arm.egg-info/top_level.txt
+writing manifest file 'model_arm.egg-info/SOURCES.txt'
+reading manifest file 'model_arm.egg-info/SOURCES.txt'
+writing manifest file 'model_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model-arm.egg-link (link to .)
+
+Installed /home/michael/ros2_ws/build/model_arm
+running install_data
+creating /home/michael/ros2_ws/install/model_arm/share/ament_index
+creating /home/michael/ros2_ws/install/model_arm/share/ament_index/resource_index
+creating /home/michael/ros2_ws/install/model_arm/share/ament_index/resource_index/packages
+copying resource/model_arm -> /home/michael/ros2_ws/install/model_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/michael/ros2_ws/install/model_arm/share/model_arm

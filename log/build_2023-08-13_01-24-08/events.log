@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'testarm'}
+[0.000131] (-) JobUnselected: {'identifier': 'testarm_moveit_config'}
+[0.000143] (-) EventReactorShutdown: {}

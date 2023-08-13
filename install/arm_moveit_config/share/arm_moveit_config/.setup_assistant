@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: testarm
+    relative_path: urdf/testarm_urdf.urdf.xacro
+  srdf:
+    relative_path: config/testarm.srdf
+  package_settings:
+    author_name: Michael Agsam
+    author_email: michael.lagsam@gmail.com
+    generated_timestamp: 1691943750
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

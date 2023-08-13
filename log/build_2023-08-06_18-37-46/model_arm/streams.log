@@ -1,0 +1,35 @@
+[0.347s] Invoking command in '/home/michael/ros2_ws/build/model_arm': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/michael/ros2_ws/build/model_arm/build
+[0.507s] running develop
+[0.508s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.508s]   warnings.warn(
+[0.509s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.509s]   warnings.warn(
+[0.536s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.536s]   warnings.warn(
+[0.536s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.536s]   warnings.warn(
+[0.612s] Invoked command in '/home/michael/ros2_ws/build/model_arm' returned '0': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/michael/ros2_ws/build/model_arm/build
+[0.612s] Invoking command in '/home/michael/ros2_ws/src/model_arm': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_arm build --build-base /home/michael/ros2_ws/build/model_arm/build install --record /home/michael/ros2_ws/build/model_arm/install.log --single-version-externally-managed
+[0.755s] running egg_info
+[0.756s] writing ../../build/model_arm/model_arm.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/model_arm/model_arm.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../build/model_arm/model_arm.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/model_arm/model_arm.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/model_arm/model_arm.egg-info/top_level.txt
+[0.758s] reading manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+[0.759s] writing manifest file '../../build/model_arm/model_arm.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.759s] running build_py
+[0.759s] running install
+[0.759s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.759s]   warnings.warn(
+[0.759s] running install_lib
+[0.760s] running install_data
+[0.761s] copying launch/gazebo.launch.py -> /home/michael/ros2_ws/install/model_arm/share/model_arm/launch
+[0.761s] copying worlds/neighborhood.world -> /home/michael/ros2_ws/install/model_arm/share/model_arm/worlds
+[0.761s] running install_egg_info
+[0.762s] removing '/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.762s] Copying ../../build/model_arm/model_arm.egg-info to /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model_arm-0.0.0-py3.10.egg-info
+[0.763s] running install_scripts
+[0.778s] writing list of installed files to '/home/michael/ros2_ws/build/model_arm/install.log'
+[0.796s] Invoked command in '/home/michael/ros2_ws/src/model_arm' returned '0': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_arm build --build-base /home/michael/ros2_ws/build/model_arm/build install --record /home/michael/ros2_ws/build/model_arm/install.log --single-version-externally-managed

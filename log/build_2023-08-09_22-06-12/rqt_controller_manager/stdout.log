@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing rqt_controller_manager.egg-info/PKG-INFO
+writing dependency_links to rqt_controller_manager.egg-info/dependency_links.txt
+writing entry points to rqt_controller_manager.egg-info/entry_points.txt
+writing requirements to rqt_controller_manager.egg-info/requires.txt
+writing top-level names to rqt_controller_manager.egg-info/top_level.txt
+reading manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/michael/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt-controller-manager.egg-link (link to .)
+Installing rqt_controller_manager script to /home/michael/ros2_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+
+Installed /home/michael/ros2_ws/build/rqt_controller_manager
+running install_data
+copying resource/rqt_controller_manager -> /home/michael/ros2_ws/install/rqt_controller_manager/share/ament_index/resource_index/packages
+copying package.xml -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager
+copying resource/led_red.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying resource/controller_manager.ui -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying resource/controller_info.ui -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying resource/led_off.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying resource/cm_icon.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying resource/led_green.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+copying plugin.xml -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager

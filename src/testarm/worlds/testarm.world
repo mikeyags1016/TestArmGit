@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+    <sdf version="1.5">
+    <world name="default">
+
+        <!-- A global light source -->
+        <include>
+        <uri>model://sun</uri>
+        </include>
+        <!-- A ground plane -->
+        <include>
+        <uri>model://ground_plane</uri>
+        </include>
+
+        <physics type="ode">
+        <max_step_size>0.001</max_step_size>
+        </physics>
+
+
+
+
+        <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+            <ros>
+                <namespace>/gazebo</namespace>
+            </ros>
+
+            <alwaysOn>true</alwaysOn>
+            <update_rate>10.0</update_rate>
+        </plugin>
+    </world>
+</sdf>

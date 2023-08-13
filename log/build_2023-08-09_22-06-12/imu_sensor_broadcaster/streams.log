@@ -1,0 +1,84 @@
+[0.250s] Invoking command in '/home/michael/ros2_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/imu_sensor_broadcaster -- -j14 -l14
+[0.304s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.573s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.601s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.602s] -- BACKWARD_HAS_UNWIND=1
+[0.602s] -- BACKWARD_HAS_BACKTRACE=0
+[0.602s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.602s] -- BACKWARD_HAS_DW=1
+[0.602s] -- BACKWARD_HAS_BFD=0
+[0.602s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.603s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.643s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.647s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.720s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.722s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.331s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.331s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.356s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.784s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.784s] -- Found controller_manager: 2.29.0 (/home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.198s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.200s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.203s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.204s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.954s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.954s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.955s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.164s] -- Configuring done
+[4.343s] -- Generating done
+[4.347s] -- Build files have been written to: /home/michael/ros2_ws/build/imu_sensor_broadcaster
+[4.501s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[4.508s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/michael/ros2_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include//imu_sensor_broadcaster_parameters.hpp /home/michael/ros2_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml `[0m
+[4.571s] [ 40%] Built target gmock
+[4.905s] [ 40%] Built target imu_sensor_broadcaster_parameters
+[4.957s] [35m[1mConsolidate compiler generated dependencies of target imu_sensor_broadcaster[0m
+[5.039s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[22.128s] [ 60%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[22.684s] [ 60%] Built target imu_sensor_broadcaster
+[22.732s] [35m[1mConsolidate compiler generated dependencies of target test_load_imu_sensor_broadcaster[0m
+[22.761s] [35m[1mConsolidate compiler generated dependencies of target test_imu_sensor_broadcaster[0m
+[22.843s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[22.846s] [ 80%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[46.602s] [ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[48.193s] [ 90%] Built target test_load_imu_sensor_broadcaster
+[58.201s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[59.800s] [100%] Built target test_imu_sensor_broadcaster
+[59.820s] Invoked command in '/home/michael/ros2_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/imu_sensor_broadcaster -- -j14 -l14
+[59.884s] Invoking command in '/home/michael/ros2_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/imu_sensor_broadcaster
+[59.898s] -- Install configuration: ""
+[59.899s] -- Execute custom install script
+[59.899s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters/imu_sensor_broadcaster_parameters.hpp
+[59.899s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster//imu_sensor_broadcaster.xml
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/visibility_control.h
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[59.900s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[59.901s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[59.901s] -- Symlinking: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[59.912s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[59.912s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[59.913s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[59.913s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.913s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[59.914s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[59.914s] -- Up-to-date symlink: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[59.919s] -- Installing: /home/michael/ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[59.922s] -- Set runtime path of "/home/michael/ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[59.922s] -- Up-to-date: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[59.922s] -- Up-to-date: /home/michael/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-noconfig.cmake
+[59.924s] Invoked command in '/home/michael/ros2_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/imu_sensor_broadcaster

@@ -1,0 +1,95 @@
+[0.271s] Invoking command in '/home/michael/ros2_ws/build/bicycle_steering_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/bicycle_steering_controller -- -j14 -l14
+[0.366s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.634s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.656s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.685s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.686s] -- BACKWARD_HAS_UNWIND=1
+[0.688s] -- BACKWARD_HAS_BACKTRACE=0
+[0.689s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.690s] -- BACKWARD_HAS_DW=1
+[0.691s] -- BACKWARD_HAS_BFD=0
+[0.695s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.697s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.738s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.743s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.761s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.090s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.093s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.865s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.866s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.892s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.957s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.981s] -- Found steering_controllers_library: 2.24.0 (/home/michael/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[3.905s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.907s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.660s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[4.660s] -- Found controller_manager: 2.29.0 (/home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[5.143s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.144s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.149s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.149s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.052s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.052s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.053s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.470s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.470s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.471s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.998s] -- Configuring done
+[7.197s] -- Generating done
+[7.205s] -- Build files have been written to: /home/michael/ros2_ws/build/bicycle_steering_controller
+[7.289s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[7.316s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/michael/ros2_ws/build/bicycle_steering_controller/bicycle_steering_controller_parameters/include//bicycle_steering_controller_parameters.hpp /home/michael/ros2_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.yaml `[0m
+[7.330s] [ 33%] Built target gmock
+[7.379s] [35m[1mConsolidate compiler generated dependencies of target test_load_bicycle_steering_controller[0m
+[7.474s] [ 41%] [32mBuilding CXX object CMakeFiles/test_load_bicycle_steering_controller.dir/test/test_load_bicycle_steering_controller.cpp.o[0m
+[7.852s] [ 41%] Built target bicycle_steering_controller_parameters
+[7.897s] [35m[1mConsolidate compiler generated dependencies of target bicycle_steering_controller[0m
+[7.969s] [ 50%] [32mBuilding CXX object CMakeFiles/bicycle_steering_controller.dir/src/bicycle_steering_controller.cpp.o[0m
+[14.714s] [ 58%] [32m[1mLinking CXX shared library libbicycle_steering_controller.so[0m
+[15.690s] [ 58%] Built target bicycle_steering_controller
+[15.767s] [35m[1mConsolidate compiler generated dependencies of target test_bicycle_steering_controller[0m
+[15.777s] [35m[1mConsolidate compiler generated dependencies of target test_bicycle_steering_controller_preceeding[0m
+[15.844s] [ 66%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller.dir/test/test_bicycle_steering_controller.cpp.o[0m
+[15.872s] [ 75%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller_preceeding.dir/test/test_bicycle_steering_controller_preceeding.cpp.o[0m
+[19.882s] [ 83%] [32m[1mLinking CXX executable test_load_bicycle_steering_controller[0m
+[22.527s] [ 83%] Built target test_load_bicycle_steering_controller
+[30.343s] [ 91%] [32m[1mLinking CXX executable test_bicycle_steering_controller_preceeding[0m
+[31.453s] [ 91%] Built target test_bicycle_steering_controller_preceeding
+[34.799s] [100%] [32m[1mLinking CXX executable test_bicycle_steering_controller[0m
+[35.968s] [100%] Built target test_bicycle_steering_controller
+[35.982s] Invoked command in '/home/michael/ros2_ws/build/bicycle_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/bicycle_steering_controller -- -j14 -l14
+[36.018s] Invoking command in '/home/michael/ros2_ws/build/bicycle_steering_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/bicycle_steering_controller
+[36.028s] -- Install configuration: ""
+[36.031s] -- Execute custom install script
+[36.031s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/include/bicycle_steering_controller_parameters/bicycle_steering_controller_parameters.hpp
+[36.032s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller//bicycle_steering_controller.xml
+[36.032s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller/bicycle_steering_controller.hpp
+[36.032s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller/visibility_control.h
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/library_path.sh
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/library_path.dsv
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/ament_index/resource_index/package_run_dependencies/bicycle_steering_controller
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/ament_index/resource_index/parent_prefix_path/bicycle_steering_controller
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/ament_prefix_path.sh
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/ament_prefix_path.dsv
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/path.sh
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/path.dsv
+[36.035s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.bash
+[36.038s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.sh
+[36.038s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.zsh
+[36.038s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.dsv
+[36.038s] -- Symlinking: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/package.dsv
+[36.057s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/ament_index/resource_index/packages/bicycle_steering_controller
+[36.057s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/bicycle_steering_controller
+[36.057s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[36.060s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.060s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/bicycle_steering_controllerConfig.cmake
+[36.060s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/bicycle_steering_controllerConfig-version.cmake
+[36.060s] -- Up-to-date symlink: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/package.xml
+[36.060s] -- Installing: /home/michael/ros2_ws/install/bicycle_steering_controller/lib/libbicycle_steering_controller.so
+[36.060s] -- Set runtime path of "/home/michael/ros2_ws/install/bicycle_steering_controller/lib/libbicycle_steering_controller.so" to ""
+[36.060s] -- Up-to-date: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport.cmake
+[36.060s] -- Up-to-date: /home/michael/ros2_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport-noconfig.cmake
+[36.065s] Invoked command in '/home/michael/ros2_ws/build/bicycle_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/bicycle_steering_controller

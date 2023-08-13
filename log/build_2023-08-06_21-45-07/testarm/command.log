@@ -1,0 +1,6 @@
+Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/testarm -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/testarm
+Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/testarm -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/testarm
+Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
+Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm
+Invoked command in '/home/michael/ros2_ws/build/testarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/testarm

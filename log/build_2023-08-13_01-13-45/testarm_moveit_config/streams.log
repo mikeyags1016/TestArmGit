@@ -1,0 +1,5 @@
+[0.010s] Invoking command in '/home/michael/ros2_ws/build/testarm_moveit_config': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14
+[0.021s] [0mCMake Error: The source directory "/home/michael/ros2_ws/testarm_moveit_config" does not exist.
+[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.022s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.023s] Invoked command in '/home/michael/ros2_ws/build/testarm_moveit_config' returned '2': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/testarm:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm_moveit_config -- -j14 -l14

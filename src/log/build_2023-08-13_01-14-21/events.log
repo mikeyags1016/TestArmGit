@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'testarm'}
+[0.000248] (testarm_moveit_config) JobQueued: {'identifier': 'testarm_moveit_config', 'dependencies': OrderedDict([('testarm', '/home/michael/ros2_ws/src/install/testarm')])}
+[0.000267] (testarm_moveit_config) JobStarted: {'identifier': 'testarm_moveit_config'}
+[0.008672] (testarm_moveit_config) JobEnded: {'identifier': 'testarm_moveit_config', 'rc': 1}
+[0.019935] (-) EventReactorShutdown: {}

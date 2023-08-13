@@ -1,0 +1,15 @@
+/home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/package_run_dependencies/testarm_moveit_config
+/home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/parent_prefix_path/testarm_moveit_config
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/ament_prefix_path.sh
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/ament_prefix_path.dsv
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/path.sh
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/environment/path.dsv
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.bash
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.sh
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.zsh
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/local_setup.dsv
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.dsv
+/home/michael/ros2_ws/install/testarm_moveit_config/share/ament_index/resource_index/packages/testarm_moveit_config
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/cmake/testarm_moveit_configConfig.cmake
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/cmake/testarm_moveit_configConfig-version.cmake
+/home/michael/ros2_ws/install/testarm_moveit_config/share/testarm_moveit_config/package.xml

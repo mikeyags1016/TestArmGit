@@ -1,0 +1,187 @@
+[0.022s] Invoking command in '/home/michael/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/michael/ros2_ws/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/controller_manager
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.486s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.570s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.580s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.585s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.585s] -- BACKWARD_HAS_UNWIND=1
+[0.585s] -- BACKWARD_HAS_BACKTRACE=0
+[0.585s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.585s] -- BACKWARD_HAS_DW=1
+[0.585s] -- BACKWARD_HAS_BFD=0
+[0.586s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.589s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.590s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.620s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.625s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.632s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.234s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.236s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.336s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.390s] -- Looking for pthread.h
+[1.473s] -- Looking for pthread.h - found
+[1.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.548s] -- Found Threads: TRUE  
+[1.777s] -- Found controller_manager_msgs: 2.29.0 (/home/michael/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.819s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.245s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.246s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.249s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.254s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.255s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.413s] -- Configuring done
+[2.595s] -- Generating done
+[2.597s] -- Build files have been written to: /home/michael/ros2_ws/build/controller_manager
+[2.610s] Invoked command in '/home/michael/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/michael/ros2_ws/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/controller_manager
+[2.610s] Invoking command in '/home/michael/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/controller_manager -- -j14 -l14
+[2.654s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.654s] [  6%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[2.655s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.656s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.663s] [ 12%] Built target ament_cmake_python_symlink_controller_manager
+[2.664s] [ 12%] Built target ament_cmake_python_symlink_controller_manager_setup
+[2.921s] running egg_info
+[2.922s] creating controller_manager.egg-info
+[2.922s] writing controller_manager.egg-info/PKG-INFO
+[2.922s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[2.923s] writing entry points to controller_manager.egg-info/entry_points.txt
+[2.923s] writing top-level names to controller_manager.egg-info/top_level.txt
+[2.923s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.925s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.925s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.946s] running install_scripts
+[2.947s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.947s]   warnings.warn(
+[2.956s] [ 12%] Built target ament_cmake_python_build_controller_manager_egg
+[2.970s] running egg_info
+[2.971s] writing controller_manager.egg-info/PKG-INFO
+[2.972s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[2.972s] writing entry points to controller_manager.egg-info/entry_points.txt
+[2.972s] writing top-level names to controller_manager.egg-info/top_level.txt
+[2.974s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.975s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.977s] Installing spawner script to scripts
+[2.977s] Installing unspawner script to scripts
+[3.011s] [ 12%] Built target ament_cmake_python_build_controller_manager_scripts
+[3.792s] [ 15%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.825s] [ 15%] Built target gmock_main
+[5.522s] [ 18%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.586s] [ 18%] Built target gmock
+[12.592s] [ 21%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[13.176s] [ 21%] Built target controller_manager
+[13.193s] [ 33%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[13.193s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[13.193s] [ 33%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[13.193s] [ 27%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[13.194s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[16.001s] [ 39%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[16.133s] [ 39%] Built target test_controller
+[16.158s] [ 42%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[16.158s] [ 48%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[16.159s] [ 48%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[16.159s] [ 51%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[17.020s] [ 54%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[17.040s] [ 57%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[17.209s] [ 57%] Built target test_controller_with_interfaces
+[17.221s] [ 60%] [32m[1mLinking CXX executable ros2_control_node[0m
+[17.228s] [ 60%] Built target test_controller_failed_init
+[17.241s] [ 63%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[17.259s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[17.844s] [ 66%] Built target ros2_control_node
+[25.438s] [ 69%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[26.097s] [ 69%] Built target test_chainable_controller
+[26.125s] [ 72%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[26.125s] [ 75%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[26.161s] [ 78%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[26.481s] [ 81%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[27.154s] [ 81%] Built target test_controller_manager_with_namespace.cpp
+[27.552s] [ 81%] Built target test_spawner_unspawner
+[27.766s] [ 84%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[28.030s] [ 87%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[28.243s] [ 90%] [32m[1mLinking CXX executable test_controller_manager[0m
+[28.777s] [ 90%] Built target test_release_interfaces
+[29.005s] [ 93%] [32m[1mLinking CXX executable test_load_controller[0m
+[29.167s] [ 93%] Built target test_hardware_management_srvs
+[29.304s] [ 93%] Built target test_controller_manager
+[29.759s] [ 93%] Built target test_load_controller
+[32.737s] [ 96%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[33.405s] [ 96%] Built target test_controllers_chaining_with_controller_manager
+[35.321s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[36.111s] [100%] Built target test_controller_manager_srvs
+[36.119s] Invoked command in '/home/michael/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/controller_manager -- -j14 -l14
+[36.169s] Invoking command in '/home/michael/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/controller_manager
+[36.174s] -- Install configuration: ""
+[36.174s] -- Execute custom install script
+[36.174s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[36.181s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[36.186s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[36.192s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[36.199s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[36.205s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[36.210s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/libtest_controller.so
+[36.216s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[36.221s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[36.227s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[36.232s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[36.238s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[36.243s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[36.248s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[36.254s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[36.260s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/PKG-INFO
+[36.265s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/SOURCES.txt
+[36.271s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/dependency_links.txt
+[36.276s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/entry_points.txt
+[36.282s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/top_level.txt
+[36.287s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/controller_manager//spawner
+[36.293s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/lib/controller_manager//unspawner
+[36.299s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[36.304s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[36.310s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[36.316s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[36.322s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[36.328s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[36.333s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[36.348s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[36.354s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[36.359s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[36.366s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[36.372s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[36.378s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[36.384s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[36.389s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[36.394s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[36.399s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[36.405s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[36.410s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[36.415s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[36.421s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[36.426s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.432s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.438s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[36.444s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[36.450s] -- Symlinking: /home/michael/ros2_ws/install/controller_manager/share/controller_manager/package.xml
+[36.483s] Listing '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[36.483s] Compiling '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+[36.483s] Compiling '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+[36.483s] Compiling '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+[36.483s] Compiling '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+[36.483s] Compiling '/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...
+[36.489s] Invoked command in '/home/michael/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/controller_manager

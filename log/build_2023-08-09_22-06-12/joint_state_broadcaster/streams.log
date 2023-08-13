@@ -1,0 +1,85 @@
+[0.061s] Invoking command in '/home/michael/ros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/joint_state_broadcaster -- -j14 -l14
+[0.293s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.294s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.294s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.294s] -- BACKWARD_HAS_UNWIND=1
+[0.294s] -- BACKWARD_HAS_BACKTRACE=0
+[0.294s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.295s] -- BACKWARD_HAS_DW=1
+[0.295s] -- BACKWARD_HAS_BFD=0
+[0.295s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.295s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.295s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.296s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found control_msgs: 4.4.0 (/home/michael/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[1.294s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.435s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.436s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.651s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.023s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.026s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.065s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.260s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.260s] -- Found controller_manager: 2.29.0 (/home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[2.579s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.580s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.585s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.586s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.308s] -- Configuring done
+[3.392s] -- Generating done
+[3.395s] -- Build files have been written to: /home/michael/ros2_ws/build/joint_state_broadcaster
+[3.451s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[3.451s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[3.470s] [ 16%] Built target gmock_main
+[3.475s] [ 41%] Built target gmock
+[3.476s] [ 50%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/michael/ros2_ws/build/joint_state_broadcaster/joint_state_broadcaster_parameters/include//joint_state_broadcaster_parameters.hpp /home/michael/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `[0m
+[3.826s] [ 50%] Built target joint_state_broadcaster_parameters
+[3.842s] [35m[1mConsolidate compiler generated dependencies of target joint_state_broadcaster[0m
+[3.873s] [ 58%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[21.760s] [ 66%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[22.419s] [ 66%] Built target joint_state_broadcaster
+[22.475s] [35m[1mConsolidate compiler generated dependencies of target test_joint_state_broadcaster[0m
+[22.490s] [35m[1mConsolidate compiler generated dependencies of target test_load_joint_state_broadcaster[0m
+[22.518s] [ 75%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[22.557s] [ 83%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[45.605s] [ 91%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[47.353s] [ 91%] Built target test_load_joint_state_broadcaster
+[62.799s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[64.308s] [100%] Built target test_joint_state_broadcaster
+[64.323s] Invoked command in '/home/michael/ros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/joint_state_broadcaster -- -j14 -l14
+[64.374s] Invoking command in '/home/michael/ros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/joint_state_broadcaster
+[64.385s] -- Install configuration: ""
+[64.385s] -- Execute custom install script
+[64.386s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster_parameters/joint_state_broadcaster_parameters.hpp
+[64.386s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster//joint_state_plugin.xml
+[64.386s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[64.386s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[64.386s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[64.387s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[64.388s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[64.388s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[64.388s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[64.388s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[64.388s] -- Symlinking: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[64.406s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[64.406s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[64.406s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[64.407s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.407s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[64.407s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[64.407s] -- Up-to-date symlink: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[64.408s] -- Installing: /home/michael/ros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[64.411s] -- Set runtime path of "/home/michael/ros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[64.411s] -- Up-to-date: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[64.412s] -- Up-to-date: /home/michael/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[64.416s] Invoked command in '/home/michael/ros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/joint_state_broadcaster

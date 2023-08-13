@@ -1,0 +1,30 @@
+[1.073s] Invoking command in '/home/michael/ros2_ws/build/rqt_controller_manager': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/build/rqt_controller_manager/prefix_override:/home/michael/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/rqt_controller_manager/build --no-deps install_data
+[1.494s] running develop
+[1.494s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.494s]   warnings.warn(
+[1.497s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.498s]   warnings.warn(
+[1.742s] running egg_info
+[1.742s] writing rqt_controller_manager.egg-info/PKG-INFO
+[1.743s] writing dependency_links to rqt_controller_manager.egg-info/dependency_links.txt
+[1.743s] writing entry points to rqt_controller_manager.egg-info/entry_points.txt
+[1.744s] writing requirements to rqt_controller_manager.egg-info/requires.txt
+[1.744s] writing top-level names to rqt_controller_manager.egg-info/top_level.txt
+[1.751s] reading manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[1.753s] writing manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[1.755s] running build_ext
+[1.755s] Creating /home/michael/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt-controller-manager.egg-link (link to .)
+[1.756s] Installing rqt_controller_manager script to /home/michael/ros2_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[1.757s] 
+[1.757s] Installed /home/michael/ros2_ws/build/rqt_controller_manager
+[1.757s] running install_data
+[1.757s] copying resource/rqt_controller_manager -> /home/michael/ros2_ws/install/rqt_controller_manager/share/ament_index/resource_index/packages
+[1.757s] copying package.xml -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager
+[1.757s] copying resource/led_red.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.757s] copying resource/controller_manager.ui -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.757s] copying resource/controller_info.ui -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.758s] copying resource/led_off.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.758s] copying resource/cm_icon.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.758s] copying resource/led_green.png -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[1.758s] copying plugin.xml -> /home/michael/ros2_ws/install/rqt_controller_manager/share/rqt_controller_manager
+[1.797s] Invoked command in '/home/michael/ros2_ws/build/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/michael/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/build/rqt_controller_manager/prefix_override:/home/michael/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/rqt_controller_manager/build --no-deps install_data

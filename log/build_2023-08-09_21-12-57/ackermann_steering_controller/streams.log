@@ -1,0 +1,117 @@
+[0.046s] Invoking command in '/home/michael/ros2_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/michael/ros2_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/ackermann_steering_controller
+[0.183s] -- The CXX compiler identification is GNU 11.4.0
+[0.199s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.800s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.868s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.880s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.896s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.896s] -- BACKWARD_HAS_UNWIND=1
+[0.897s] -- BACKWARD_HAS_BACKTRACE=0
+[0.897s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.897s] -- BACKWARD_HAS_DW=1
+[0.897s] -- BACKWARD_HAS_BFD=0
+[0.898s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.899s] -- Found controller_interface: 2.29.0 (/home/michael/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.977s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.994s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.014s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.268s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.276s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.440s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.493s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.621s] -- Looking for C++ include pthread.h
+[2.779s] -- Looking for C++ include pthread.h - found
+[2.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.985s] -- Found Threads: TRUE  
+[3.440s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[3.445s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.501s] -- Found realtime_tools: 2.5.0 (/home/michael/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[3.589s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.612s] -- Found steering_controllers_library: 2.24.0 (/home/michael/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[4.460s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.463s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.463s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.068s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[5.070s] -- Found controller_manager: 2.29.0 (/home/michael/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[5.502s] -- Found ros2_control_test_assets: 2.29.0 (/home/michael/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.505s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.579s] -- The C compiler identification is GNU 11.4.0
+[5.594s] -- Detecting C compiler ABI info
+[5.798s] -- Detecting C compiler ABI info - done
+[5.814s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.815s] -- Detecting C compile features
+[5.816s] -- Detecting C compile features - done
+[5.827s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.827s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.689s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.690s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.690s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.018s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.018s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.018s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.510s] -- Configuring done
+[7.676s] -- Generating done
+[7.681s] -- Build files have been written to: /home/michael/ros2_ws/build/ackermann_steering_controller
+[7.703s] Invoked command in '/home/michael/ros2_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/michael/ros2_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/ackermann_steering_controller
+[7.704s] Invoking command in '/home/michael/ros2_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/ackermann_steering_controller -- -j14 -l14
+[7.785s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/michael/ros2_ws/build/ackermann_steering_controller/ackermann_steering_controller_parameters/include//ackermann_steering_controller_parameters.hpp /home/michael/ros2_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller/src/ackermann_steering_controller.yaml `[0m
+[8.135s] [  8%] Built target ackermann_steering_controller_parameters
+[8.175s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.743s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[15.209s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[15.304s] [ 33%] Built target gmock
+[15.336s] [ 41%] [32mBuilding CXX object CMakeFiles/ackermann_steering_controller.dir/src/ackermann_steering_controller.cpp.o[0m
+[20.196s] [ 50%] [32m[1mLinking CXX shared library libackermann_steering_controller.so[0m
+[21.070s] [ 50%] Built target ackermann_steering_controller
+[21.134s] [ 58%] [32mBuilding CXX object CMakeFiles/test_load_ackermann_steering_controller.dir/test/test_load_ackermann_steering_controller.cpp.o[0m
+[21.168s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller.dir/test/test_ackermann_steering_controller.cpp.o[0m
+[21.173s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller_preceeding.dir/test/test_ackermann_steering_controller_preceeding.cpp.o[0m
+[32.634s] [ 83%] [32m[1mLinking CXX executable test_load_ackermann_steering_controller[0m
+[33.961s] [ 83%] Built target test_load_ackermann_steering_controller
+[38.235s] [ 91%] [32m[1mLinking CXX executable test_ackermann_steering_controller_preceeding[0m
+[39.552s] [ 91%] Built target test_ackermann_steering_controller_preceeding
+[43.135s] [100%] [32m[1mLinking CXX executable test_ackermann_steering_controller[0m
+[44.652s] [100%] Built target test_ackermann_steering_controller
+[44.668s] Invoked command in '/home/michael/ros2_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/michael/ros2_ws/build/ackermann_steering_controller -- -j14 -l14
+[44.731s] Invoking command in '/home/michael/ros2_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/ackermann_steering_controller
+[44.740s] -- Install configuration: ""
+[44.741s] -- Execute custom install script
+[44.742s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/include/ackermann_steering_controller_parameters/ackermann_steering_controller_parameters.hpp
+[44.757s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller//ackermann_steering_controller.xml
+[44.773s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/ackermann_steering_controller.hpp
+[44.784s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/visibility_control.h
+[44.794s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.sh
+[44.804s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.dsv
+[44.820s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ament_index/resource_index/package_run_dependencies/ackermann_steering_controller
+[44.829s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ament_index/resource_index/parent_prefix_path/ackermann_steering_controller
+[44.841s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.sh
+[44.856s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.dsv
+[44.871s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.sh
+[44.887s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.dsv
+[44.898s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.bash
+[44.913s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.sh
+[44.924s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.zsh
+[44.935s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.dsv
+[44.948s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.dsv
+[44.958s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ament_index/resource_index/packages/ackermann_steering_controller
+[44.971s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ackermann_steering_controller
+[44.983s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[44.994s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.011s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig.cmake
+[45.025s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig-version.cmake
+[45.036s] -- Symlinking: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.xml
+[45.053s] -- Installing: /home/michael/ros2_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so
+[45.055s] -- Set runtime path of "/home/michael/ros2_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so" to ""
+[45.055s] -- Installing: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport.cmake
+[45.055s] -- Installing: /home/michael/ros2_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport-noconfig.cmake
+[45.071s] Invoked command in '/home/michael/ros2_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/ros2_ws/install/steering_controllers_library:/home/michael/ros2_ws/install/controller_manager:/home/michael/ros2_ws/install/controller_interface:/home/michael/ros2_ws/install/hardware_interface:/home/michael/ros2_ws/install/ros2_control_test_assets:/home/michael/ros2_ws/install/realtime_tools:/home/michael/ros2_ws/install/controller_manager_msgs:/home/michael/ros2_ws/install/control_msgs:/home/michael/ros2_ws/install/testarm:/home/michael/ros2_ws/install/model_arm:/opt/ros/humble LD_LIBRARY_PATH=/home/michael/ros2_ws/install/steering_controllers_library/lib:/home/michael/ros2_ws/install/controller_manager/lib:/home/michael/ros2_ws/install/controller_interface/lib:/home/michael/ros2_ws/install/hardware_interface/lib:/home/michael/ros2_ws/install/realtime_tools/lib:/home/michael/ros2_ws/install/controller_manager_msgs/lib:/home/michael/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/michael/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/michael/ros2_ws/build/ackermann_steering_controller

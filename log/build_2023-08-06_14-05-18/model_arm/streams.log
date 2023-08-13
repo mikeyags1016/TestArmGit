@@ -1,0 +1,24 @@
+[0.343s] Invoking command in '/home/michael/ros2_ws/build/model_arm': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/model_arm/build --no-deps install_data
+[0.483s] running develop
+[0.483s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.483s]   warnings.warn(
+[0.484s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.484s]   warnings.warn(
+[0.510s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.510s]   warnings.warn(
+[0.511s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.511s]   warnings.warn(
+[0.558s] running egg_info
+[0.558s] writing model_arm.egg-info/PKG-INFO
+[0.559s] writing dependency_links to model_arm.egg-info/dependency_links.txt
+[0.559s] writing entry points to model_arm.egg-info/entry_points.txt
+[0.559s] writing requirements to model_arm.egg-info/requires.txt
+[0.559s] writing top-level names to model_arm.egg-info/top_level.txt
+[0.560s] reading manifest file 'model_arm.egg-info/SOURCES.txt'
+[0.560s] writing manifest file 'model_arm.egg-info/SOURCES.txt'
+[0.561s] running build_ext
+[0.561s] Creating /home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages/model-arm.egg-link (link to .)
+[0.562s] 
+[0.562s] Installed /home/michael/ros2_ws/build/model_arm
+[0.562s] running install_data
+[0.579s] Invoked command in '/home/michael/ros2_ws/build/model_arm' returned '0': PYTHONPATH=/home/michael/ros2_ws/build/model_arm/prefix_override:/home/michael/ros2_ws/install/model_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/michael/ros2_ws/build/model_arm/build --no-deps install_data

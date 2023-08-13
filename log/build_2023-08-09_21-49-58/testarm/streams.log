@@ -1,0 +1,1 @@
+[0.009s] Invoking command in '/home/michael/ros2_ws/build/testarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/testarm -- -j14 -l14
